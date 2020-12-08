@@ -3,4 +3,5 @@
 .vscode
 *.sqlite
 node_modules
+temp
 NOTES.md
