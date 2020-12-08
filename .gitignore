@@ -1,0 +1,6 @@
+*~
+.idea
+.vscode
+*.sqlite
+node_modules
+NOTES.md
