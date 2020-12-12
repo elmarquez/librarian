@@ -13,6 +13,7 @@
   "license": "CC-BY-SA-4.0",
   "dependencies": {
     "bluebird": "^3.7.2",
+    "find-up": "^5.0.0",
     "fs-tree-diff": "^2.0.1",
     "hasha": "^5.2.2",
     "log-symbols": "^4.0.0",
@@ -20,6 +21,7 @@
     "nodejs-fs-utils": "^1.2.5",
     "sqlite3": "^5.0.0",
     "tiny-glob": "^0.2.6",
+    "walk-sync": "^2.2.0",
     "yargs": "^15.4.1"
   },
   "devDependencies": {

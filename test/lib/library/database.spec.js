@@ -5,7 +5,7 @@ const fsutils = require('nodejs-fs-utils');
 const os = require('os');
 const { join, sep } = require('path');
 
-describe('lib / library / database ', function() {
+xdescribe('lib / library / database ', function() {
 
     const fixtures = join(process.cwd(), 'test', 'fixtures');
     const state1 = join(fixtures, 'state1');
@@ -76,7 +76,7 @@ describe('lib / library / database ', function() {
                 .catch(fail);
             });
     });
-    
+
     describe('getDocumentIdentifiers', function() {
         it('returns a promise', function(done) {
             const db = new Database(tmp);
