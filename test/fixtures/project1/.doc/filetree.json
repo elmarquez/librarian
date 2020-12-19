@@ -1,4 +1,14 @@
-{
-  "lastUpdate": 0,
-  "entries": []
-}
+[
+  {
+    "relativePath": "test1",
+    "mode": 111111,
+    "size": 1,
+    "mtime": 0
+  },
+  {
+    "relativePath": "test2",
+    "mode": 111111,
+    "size": 1,
+    "mtime": 0
+  }
+]

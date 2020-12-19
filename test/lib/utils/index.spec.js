@@ -15,6 +15,30 @@ describe('lib / utils', function () {
         });
     });
 
+    describe('ensureFile', function () {
+        it('works', function (done) {
+            fail('not implemented');
+        });
+    });
+
+    describe('ensureFolder', function () {
+        it('works', function (done) {
+            fail('not implemented');
+        });
+    });
+
+    describe('getFileTreeChanges', function () {
+        it('fails', function () {
+            fail();
+        });
+    });
+
+    describe('getFileTreeState', function () {
+        it('loads the project filetree.json file into memory', function (done) {
+            fail();
+        });
+    });
+
     describe('getProjectRoot', function () {
         it('rejects if the project root cannot be found', function (done) {
             const tmp = os.tmpdir();
@@ -25,10 +49,10 @@ describe('lib / utils', function () {
         });
         it('returns the path to the project root directory when the project root is the current directory', function (done) {
             const root = path.join(process.cwd(), 'test', 'fixtures', 'project1');
-            const project1 = path.join(root,'.doc');
+            const project1 = path.join(root, '.doc');
             utils
                 .getLibraryRoot(project1)
-                .then(function(p) {
+                .then(function (p) {
                     expect(p).toEqual(root);
                     done();
                 })
@@ -39,7 +63,7 @@ describe('lib / utils', function () {
             const project2 = path.join(root, 'dir1', 'dir2', 'dir3');
             utils
                 .getLibraryRoot(project2)
-                .then(function(p) {
+                .then(function (p) {
                     expect(p).toEqual(root);
                     done();
                 })

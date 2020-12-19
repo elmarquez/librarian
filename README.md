@@ -1,4 +1,4 @@
-Librarian -- simple desktop file indexing and search
+Librarian - simple desktop file indexing and search
 ====================================================
 
 Simple tools to index and search your desktop files and file content.

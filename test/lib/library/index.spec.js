@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const { DEFAULT_DATABASE_FILENAME } = require('../../../lib/constants');
+const { DATABASE_FILENAME } = require('../../../lib/constants');
 const db = require('../../../lib/library/database');
 const fs = require('fs');
 const fsutils = require('nodejs-fs-utils');
@@ -49,7 +49,7 @@ describe('lib / library', function() {
             });
         });
         it('updates the file index', function(done) {
-            const args = { path: tmp, database: join(tmp, DEFAULT_DATABASE_FILENAME) };
+            const args = { path: tmp, database: join(tmp, DATABASE_FILENAME) };
             library
                 .update(args)
                 .then(function() {
