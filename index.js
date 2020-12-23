@@ -12,7 +12,7 @@ yargs
     .usage('$0 <cmd> [args]')
     .command('info [name]', 'Display file information', noop, lib.info)
     .command('init', 'Initialize folder as library', noop, lib.init)
-    .command('purge', 'Purge index', noop, lib.purge)
+    .command('reset', 'Reset index', noop, lib.reset)
     .command('search <query>', 'Search for publications', noop, lib.search)
     .command('update', 'Update the index', noop, lib.update)
     .option('path', {

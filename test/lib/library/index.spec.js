@@ -1,6 +1,6 @@
 const { expect } = require('chai');
 const { DATABASE_FILENAME } = require('../../../lib/constants');
-const db = require('../../../lib/library/database');
+const db = require('../../../lib/database');
 const fs = require('fs');
 const fsutils = require('nodejs-fs-utils');
 const os = require('os');

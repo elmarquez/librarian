@@ -1,6 +1,6 @@
 const Promise = require('bluebird');
 const { expect } = require('chai');
-const files = require('../../../lib/library/files');
+const files = require('../../../lib/files');
 const fs = require('fs');
 const os = require('os');
 const { join, sep } = require('path');
