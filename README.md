@@ -35,7 +35,7 @@ Update the package version number, commit and tag the update:
 
 ## Contributing
 
-doc is a community driven, open source project. We accept pull requests for
+librarian is a community driven, open source project. We accept pull requests for
 new features and bug fixes. Please see the CODE_OF_CONDUCT.md file for rules
 governing participation in the project.
 
