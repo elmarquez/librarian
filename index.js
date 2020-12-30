@@ -2,7 +2,7 @@
 const lib = require('./lib');
 const { noop } = require('./lib/utils');
 const { homedir } = require('os');
-const { join, normalize } = require('path');
+const { join, resolve } = require('path');
 const pkg = require('./package.json');
 const yargs = require('yargs');
 
@@ -19,7 +19,7 @@ yargs
         coerce: function (p) {
             const i = p.indexOf('~');
             p = i > -1 ? join(homedir(), p.substring(i + 1)) : p;
-            return normalize(p);
+            return resolve(p);
         },
         default: process.cwd(),
         describe: 'path to project directory',
