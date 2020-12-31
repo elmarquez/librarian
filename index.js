@@ -13,8 +13,9 @@ yargs
     .command('info [name]', 'Display file information', noop, lib.info)
     .command('init', 'Initialize folder as library', noop, lib.init)
     .command('reset', 'Reset index', noop, lib.reset)
-    .command('search <query>', 'Search for publications', noop, lib.search)
+    .command('search [query...]', 'Search file content by keyword', noop, lib.search)
     .command('update', 'Update the index', noop, lib.update)
+    .command('upgrade', `Upgrade ${pkg.name} to the latest version`, noop, lib.upgrade)
     .option('path', {
         coerce: function (p) {
             const i = p.indexOf('~');

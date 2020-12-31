@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Simple desktop file indexing and search",
   "bin": {
-    "librarian": "./index.js"
+    "library": "./index.js"
   },
   "scripts": {
     "release": "node_modules/.bin/release-it",
@@ -14,10 +14,13 @@
   "dependencies": {
     "bluebird": "^3.7.2",
     "cli-progress": "^3.8.2",
+    "compromise": "^13.8.0",
     "find-up": "^5.0.0",
     "fs-tree-diff": "^2.0.1",
     "hasha": "^5.2.2",
     "log-symbols": "^4.0.0",
+    "nedb": "^1.8.0",
+    "nedb-promise": "^2.0.1",
     "nodejs-fs-utils": "^1.2.5",
     "pdf-extraction": "^1.0.2",
     "sequelize": "^6.3.5",
