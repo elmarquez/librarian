@@ -1,21 +1,27 @@
-Librarian - simple desktop file indexing and search
-====================================================
+Shelf - simple desktop file search for your PDF and research document collections
+=================================================================================
 
-Simple tools to index and search your desktop files and file content.
+Do you have a large collection of PDF books, journal articles and research papers?
+Shelf (aka bookshelf) will help you bring order to chaos! It gives you:
+
+- Content based search that beats Windows, MacOS, and Linux desktop search 
+- Utilities to help you keep file names consistent, manage metadata, and convert files between formats
+- Extensible plugin architecture so that you can add your own bling
+
 
 ## Install
 
 Install the application in your local environment:
 
-    npm install -g @elmarquez/librarian
+    npm install -g @elmarquez/shelf
 
 Once installed, a script will be installed at:
 
-    /usr/local/bin/librarian
+    /usr/local/bin/shelf
 
 Display help information:
 
-    librarian --help
+    shelf --help
 
 
 ## Developing
@@ -35,7 +41,7 @@ Update the package version number, commit and tag the update:
 
 ## Contributing
 
-librarian is a community driven, open source project. We accept pull requests for
+shelf is a community driven, open source project. We accept pull requests for
 new features and bug fixes. Please see the CODE_OF_CONDUCT.md file for rules
 governing participation in the project.
 
