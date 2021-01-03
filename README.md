@@ -1,3 +1,5 @@
+![Shelf](shelf.png)
+
 Shelf - simple desktop file search for your PDF and research document collections
 =================================================================================
 
